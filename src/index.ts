@@ -11,13 +11,22 @@ export class colors {
   static blue(msg: string | number) {
     return `\x1b[34m${msg}\x1b[0m`;
   }
-  static magenta(msg: string | number) {
-    return `\x1b[35m${msg}\x1b[0m`;
-  }
   static cyan(msg: string | number) {
     return `\x1b[36m${msg}\x1b[0m`;
   }
   static black(msg: string | number) {
     return `\x1b[30m${msg}\x1b[0m`;
+  }
+  static purple(msg: string | number) {
+    return `\x1b[35m${msg}\x1b[0m`;
+  }
+  static brightPurple(msg: string | number) {
+    return `\x1b[95m${msg}\x1b[0m`;
+  }
+  static gray(msg: string | number) {
+    return `\x1b[90m${msg}\x1b[0m`;
+  }
+  static brightGray(msg: string | number) {
+    return `\x1b[37m${msg}\x1b[0m`;
   }
 }
