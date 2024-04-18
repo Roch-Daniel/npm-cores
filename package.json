@@ -1,5 +1,5 @@
 {
-  "name": "cores_terminal",
+  "name": "colors_terminal",
   "version": "1.0.0",
   "description": "Use this to implement colors in terminal",
   "main": "dist/src/index.js",
@@ -13,6 +13,12 @@
     "jest": "^29.7.0",
     "typescript": "^5.3.3"
   },
+  "keywords": [
+    "colors",
+    "color",
+    "terminal",
+    "colors_terminal"
+  ],
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "ts-jest": "^29.1.2"
