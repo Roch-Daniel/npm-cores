@@ -15,15 +15,15 @@ npm i colors_terminal
 Here is an example of how you can use this library to add colors to your terminal:
 
 ```js
-const colors = require('colors_terminal');
+const { Colors } = require('colors_terminal');
 
-console.log(colors.yellow('Olá, mundo!'));
+console.log(Colors.yellow('Olá, mundo!'));
 ```
 
 ```ts
-import colors from 'colors_terminal';
+import { Colors } from 'colors_terminal';
 
-console.log(colors.yellow('Olá, mundo!'));
+console.log(Colors.yellow('Olá, mundo!'));
 ```
 
 In this example, the message ‘Hello, world!’ will be displayed in yellow in the terminal.
