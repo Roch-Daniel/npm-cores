@@ -1,6 +1,6 @@
 {
   "name": "colors_terminal",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "Use this to implement colors in terminal",
   "main": "dist/src/index.js",
   "scripts": {
