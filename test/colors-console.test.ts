@@ -15,6 +15,4 @@ describe('ColorsConsole', () => {
     ColorsConsole.gray('Hello!');
     expect(consoleSpy).toHaveBeenCalledWith(`\x1b[90mHello!\x1b[0m`);
   });
-
-  // Adicione testes semelhantes para os outros métodos...
 });
